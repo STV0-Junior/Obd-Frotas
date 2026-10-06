@@ -1,15 +1,14 @@
 # Front-end
 
-Esta pasta reúne a interface visual do OBD Monitor. A ideia é manter aqui os arquivos da página e do dashboard, organizados por responsabilidade para facilitar manutenção e evolução.
+Esta pasta reúne os recursos da interface visual do OBD Monitor, organizados por responsabilidade para facilitar manutenção e evolução. O `index.html` de apresentação fica na raiz do repositório para ser reconhecido pelo GitHub Pages.
 
 ## Organização
 
-- `index.html`: estrutura e conteúdo das páginas.
 - `css/`: estilos, layout, cores, tipografia e ajustes responsivos.
 - `js/`: interações da interface e apresentação dos dados recebidos.
 - `assets/` ou `images/`: ícones, imagens e outros recursos visuais.
 
-No estado atual, `index.html` é uma página de apresentação independente. Seus estilos e a pequena interação do menu ainda estão no próprio arquivo. Conforme a interface crescer, eles podem ser separados nos diretórios acima.
+No estado atual, a página de apresentação na raiz é independente. Seus estilos e a pequena interação do menu ainda estão no próprio arquivo. Conforme a interface crescer, recursos compartilhados podem ser organizados nos diretórios acima.
 
 ## Diretrizes
 
